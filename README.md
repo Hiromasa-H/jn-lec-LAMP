@@ -1,5 +1,5 @@
 # jn-lec-LAMP
-assignment for LAMP lecture
+Assignment for LAMP lecture.
 
 ## Using Flask & SQLALCHEMY
 severh.py:
@@ -37,7 +37,7 @@ $python
 >>>User.query.all()
 ```
 
-## returning html file with registered information
+## Returning html file with registered information
 severh.py:
 ```python
 @app.route("/")
@@ -52,13 +52,13 @@ index.html:
 {{users}}
 ```
 
-## Run the app
+## Running the app
 severh.py:
 ```python
 app.run(host="0.0.0.0", port=8080)
 ```
 
-send a GET request to "ht<span>tp://0.0.0.0:8080/" to see the results. <br>
+Sending a GET request to "ht<span>tp://0.0.0.0:8080/" will allow you to see the results. <br>
 ht<span>tp://0.0.0.0:8080/:
  ```HTML
   [User('hhiromasa','EI','B2')]
