@@ -24,7 +24,7 @@ class User(db.Model):
     return f"User('{self.nickname}','{self.faculty}','{self.grade}')"
 ```
 
-## Registering user information to the db via CLI
+## Registering user information to the db via the terminal
 terminal:
 ```
 $python 
