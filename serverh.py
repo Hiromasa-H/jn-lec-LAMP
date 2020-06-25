@@ -20,3 +20,5 @@ def index():
   return render_template('index.html', users=User.query.all())
 
 app.run(host="0.0.0.0", port=8080)
+
+#testing out the github thingy---
